@@ -93,3 +93,104 @@ header nav ul li a:hover {
    max-width: 800px;
    margin: auto;
 }
+.beneficios {
+   padding: 60px 0;
+}
+
+
+.beneficios h2 {
+   text-align: center;
+   margin-bottom: 40px;
+}
+
+
+.cards {
+   display: flex;
+   gap: 20px;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+
+.card {
+   background-color: rgb(255, 255, 255);
+   padding: 20px;
+   border-radius: 8px;
+   box-shadow: 0 0 10px rgba(0,0,0,0.1);
+   width: 300px;
+   transition: transform 0.3s;
+}
+
+
+.card:hover {
+   transform: translateY(-5px);
+}
+
+
+.card h3 {
+   margin-bottom: 10px;
+}
+
+
+/* Contato */
+.contato {
+   padding: 60px 0;
+   background-color: #fff;
+}
+
+
+.contato h2 {
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+
+.contato p {
+   text-align: center;
+}
+
+
+/* Rodapé */
+footer {
+   background-color: #4CAF50;
+   color: white;
+   padding: 20px 0;
+   text-align: center;
+}
+
+
+/* Responsivo */
+@media (max-width: 768px) {
+   .cards {
+       flex-direction: column;
+       align-items: center;
+   }
+
+
+   .banner h2 {
+       font-size: 2em;
+   }
+}
+/* Links como Cards */
+.cards a.card {
+   text-decoration: none;
+   color: inherit;
+   display: block;
+   border-radius: 8px;
+   transition: transform 0.3s, box-shadow 0.3s;
+}
+
+
+.cards a.card:hover {
+   transform: translateY(-5px);
+   box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+.minha-imagem {
+   width: 30000px; /* Largura da imagem */
+   height: auto; /* Mantém a proporção original */
+   border-radius: 15px; /* Bordas arredondadas */
+   border: 5px solid #333; /* Borda cinza escuro */
+   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3); /* Sombra */
+   max-width: 100%;
+   margin: 10px auto; /*Centraliza a imagem*/
+ }
